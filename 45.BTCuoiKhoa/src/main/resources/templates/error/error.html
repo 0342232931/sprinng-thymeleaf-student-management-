@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>ERROR</title>
+</head>
+<body>
+<h1><b>THÔNG TIN LỖI</b></h1>
+<hr>
+<h3>Tên Lỗi:  <span th:text="${error.toString()}"></span></h3><br>
+<span>Quay về <a th:href="@{/home}">trang chủ</a></span>
+</body>
+</html>
